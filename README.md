@@ -1,4 +1,4 @@
-# Get by dot
+# get-by-dot
 
 🌳 Get value from object using dot path.
 
