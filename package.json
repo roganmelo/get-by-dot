@@ -11,9 +11,6 @@
     "url": "https://github.com/roganmelo"
   },
   "main": "dist/index.js",
-  "engines": {
-    "node": "^8.0.0"
-  },
   "scripts": {
     "clean": "rm -rf ./dist",
     "compile": "yarn clean && cp -r src/ dist/ && babel src --out-dir dist",
