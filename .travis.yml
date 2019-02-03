@@ -8,4 +8,6 @@ only:
 notifications:
 email:
   - roganmelo@gmail.com
-script: npm test
+before_script:
+  - yarn compile
+script: yarn test
