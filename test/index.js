@@ -1,9 +1,7 @@
 import getByDot from '../dist';
 
 const obj = {
-  a: {
-    b: 'c'
-  },
+  a: { b: 'c' },
   b: [{ c: 'a' }]
 };
 
